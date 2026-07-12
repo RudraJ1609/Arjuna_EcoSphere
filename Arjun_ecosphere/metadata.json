@@ -1,0 +1,6 @@
+{
+  "name": "EcoSphere",
+  "description": "EcoSphere ESG Management Platform integrates ESG directly into ERP operations, measuring sustainability metrics, encouraging employee participation, and producing compliance-ready audits and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
