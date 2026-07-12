@@ -22,3 +22,14 @@ app.listen(PORT, () => {
 
 const authRoutes = require('./Routes/authRoutes');
 app.use('/api/auth', authRoutes);
+
+const departmentRoutes = require('./Routes/departmentRoutes');
+const csrActivityRoutes = require('./Routes/csrActivityRoutes');
+app.use('/api/departments', departmentRoutes);
+app.use('/api/csr-activities', csrActivityRoutes);
+
+const challengeRoutes = require('./Routes/challengeRoutes');
+app.use('/api/challenges', challengeRoutes);
+
+const dashboardRoutes = require('./Routes/dashboardRoutes');
+app.use('/api/dashboard', dashboardRoutes);
