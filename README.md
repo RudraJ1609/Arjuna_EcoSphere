@@ -1,1 +1,0 @@
-# Arjuna_EcoSphere
